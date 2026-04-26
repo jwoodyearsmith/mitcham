@@ -100,23 +100,6 @@ h1 span{color:var(--sky)}
 .btn-primary svg{flex-shrink:0}
 .btn-outline{background:transparent;color:var(--white);text-decoration:none;padding:16px 32px;border-radius:4px;font-family:var(--font-head);font-size:18px;font-weight:700;letter-spacing:1px;border:1.5px solid rgba(255,255,255,0.3);transition:var(--transition);display:inline-flex;align-items:center;gap:10px}
 .btn-outline:hover{border-color:rgba(255,255,255,0.7);background:rgba(255,255,255,0.06)}
-.hero-stats{display:flex;gap:40px;flex-wrap:wrap}
-.hero-stat{display:flex;flex-direction:column}
-.hero-stat-num{font-family:var(--font-head);font-size:36px;font-weight:800;color:var(--white);line-height:1}
-.hero-stat-label{font-size:12px;color:rgba(255,255,255,0.5);letter-spacing:1px;margin-top:4px}
-.hero-stat-divider{width:1px;background:rgba(255,255,255,0.1);align-self:stretch}
-
-/* ── TRUST BAR ── */
-#trust{background:var(--navy-mid);border-top:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06)}
-.trust-inner{max-width:1280px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:repeat(4,1fr)}
-.trust-item{display:flex;align-items:center;gap:14px;padding:22px 20px;border-right:1px solid rgba(255,255,255,0.06)}
-.trust-item:last-child{border-right:none}
-.trust-icon{width:40px;height:40px;background:rgba(232,130,26,0.12);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.trust-icon svg{color:var(--orange)}
-.trust-text strong{display:block;color:var(--white);font-family:var(--font-head);font-size:16px;font-weight:700;letter-spacing:0.3px}
-.trust-text span{font-size:12px;color:var(--slate-light);margin-top:1px;display:block}
-@media(max-width:768px){.trust-inner{grid-template-columns:repeat(2,1fr)}.trust-item{border-right:none;border-bottom:1px solid rgba(255,255,255,0.06)}.trust-item:nth-child(odd){border-right:1px solid rgba(255,255,255,0.06)}}
-@media(max-width:480px){.trust-inner{grid-template-columns:1fr}}
 
 /* ── SECTIONS ── */
 .section{padding:100px 24px}
@@ -306,66 +289,9 @@ h1 span{color:var(--sky)}
       </a>
       <a href="#contact" class="btn-outline">Get a Free Quote</a>
     </div>
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <span class="hero-stat-num">10+</span>
-        <span class="hero-stat-label">Years Experience</span>
-      </div>
-      <div class="hero-stat-divider"></div>
-      <div class="hero-stat">
-        <span class="hero-stat-num">24/7</span>
-        <span class="hero-stat-label">Emergency Service</span>
-      </div>
-      <div class="hero-stat-divider"></div>
-      <div class="hero-stat">
-        <span class="hero-stat-num">5★</span>
-        <span class="hero-stat-label">Rated Local</span>
-      </div>
-    </div>
   </div>
 </section>
 
-<!-- Trust Bar -->
-<div id="trust">
-  <div class="trust-inner">
-    <div class="trust-item fade-up">
-      <div class="trust-icon">
-        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
-      </div>
-      <div class="trust-text">
-        <strong>10+ Years Experience</strong>
-        <span>Trusted across Mitcham & Merton</span>
-      </div>
-    </div>
-    <div class="trust-item fade-up fade-up-delay-1">
-      <div class="trust-icon">
-        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-      </div>
-      <div class="trust-text">
-        <strong>24/7 Emergency Service</strong>
-        <span>We answer every call, day or night</span>
-      </div>
-    </div>
-    <div class="trust-item fade-up fade-up-delay-2">
-      <div class="trust-icon">
-        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-      </div>
-      <div class="trust-text">
-        <strong>Transparent Pricing</strong>
-        <span>Online estimates, no hidden costs</span>
-      </div>
-    </div>
-    <div class="trust-item fade-up fade-up-delay-3">
-      <div class="trust-icon">
-        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-      </div>
-      <div class="trust-text">
-        <strong>Fully Insured</strong>
-        <span>Professional engineers, guaranteed</span>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Services -->
 <section id="services" class="section">
