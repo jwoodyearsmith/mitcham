@@ -143,18 +143,11 @@ h1 span{color:var(--sky)}
 
 /* ── ABOUT ── */
 #about{background:var(--white)}
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:56px}
-.about-body{font-size:15px;color:var(--slate);line-height:1.85;font-weight:300}
+.about-wrap{max-width:820px;margin:56px auto 0}
+.about-body{font-size:16px;color:var(--slate);line-height:1.85;font-weight:300;margin-top:24px}
 .about-body p+p{margin-top:18px}
 .about-link{color:var(--blue);text-decoration:none;font-weight:500;border-bottom:1px solid rgba(27,111,168,0.3);transition:var(--transition)}
 .about-link:hover{border-color:var(--blue)}
-.stat-panel{background:var(--navy);border-radius:12px;padding:48px 40px;display:grid;grid-template-columns:1fr 1fr;gap:32px}
-.stat-item{display:flex;flex-direction:column}
-.stat-num{font-family:var(--font-head);font-size:52px;font-weight:800;color:var(--white);line-height:1;letter-spacing:-1px}
-.stat-num span{color:var(--orange)}
-.stat-label{font-size:12px;color:rgba(255,255,255,0.5);letter-spacing:1.5px;text-transform:uppercase;margin-top:8px}
-.stat-divider{grid-column:1/-1;height:1px;background:rgba(255,255,255,0.08)}
-@media(max-width:768px){.about-grid{grid-template-columns:1fr;gap:40px}}
 
 /* ── WHY CHOOSE ── */
 #why{background:var(--off-white)}
@@ -443,37 +436,14 @@ h1 span{color:var(--sky)}
 <!-- About -->
 <section id="about" class="section">
   <div class="section-inner">
-    <div class="about-grid">
-      <div class="fade-up">
-        <p class="section-tag">About Us</p>
-        <h2 class="section-heading">Your Go-To Plumber for<br><span>All Plumbing Needs</span></h2>
-        <div class="about-body">
-          <p>Mitcham Plumbing and Heating, located in Mitcham, offers reliable plumbing services for both residential and commercial customers. Whether you're dealing with a leaking pipe at home or need a full plumbing installation for your business, our team is here to help.</p>
-          <p>For homeowners, we specialize in everything from fixing taps and toilets to drain cleaning and boiler repairs, ensuring your home runs smoothly and comfortably.</p>
-          <p>For businesses, we understand the importance of having a dependable plumbing system that works efficiently without disruption. Our commercial services cover everything from heating system installations to plumbing repairs, all tailored to your specific needs.</p>
-          <p>At Mitcham Plumbing and Heating, we pride ourselves on offering prompt, professional service at competitive prices, ensuring every job is completed to the highest standard. No matter the size of the project, you can trust us to deliver excellent results.</p>
-        </div>
-      </div>
-      <div class="fade-up fade-up-delay-2">
-        <div class="stat-panel">
-          <div class="stat-item">
-            <div class="stat-num">10<span>+</span></div>
-            <div class="stat-label">Years Experience</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-num">24<span>/7</span></div>
-            <div class="stat-label">Emergency Service</div>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat-item">
-            <div class="stat-num">5<span>★</span></div>
-            <div class="stat-label">Customer Rated</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-num">100<span>%</span></div>
-            <div class="stat-label">Satisfaction Goal</div>
-          </div>
-        </div>
+    <div class="about-wrap fade-up">
+      <p class="section-tag">About Us</p>
+      <h2 class="section-heading">Your Go-To Plumber for <span>All Plumbing Needs</span></h2>
+      <div class="about-body">
+        <p>Mitcham Plumbing and Heating, located in Mitcham, offers reliable plumbing services for both residential and commercial customers. Whether you're dealing with a leaking pipe at home or need a full plumbing installation for your business, our team is here to help.</p>
+        <p>For homeowners, we specialize in everything from fixing taps and toilets to drain cleaning and boiler repairs, ensuring your home runs smoothly and comfortably.</p>
+        <p>For businesses, we understand the importance of having a dependable plumbing system that works efficiently without disruption. Our commercial services cover everything from heating system installations to plumbing repairs, all tailored to your specific needs.</p>
+        <p>At Mitcham Plumbing and Heating, we pride ourselves on offering prompt, professional service at competitive prices, ensuring every job is completed to the highest standard. No matter the size of the project, you can trust us to deliver excellent results.</p>
       </div>
     </div>
   </div>
