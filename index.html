@@ -200,7 +200,7 @@ h1 span{color:var(--sky)}
 @media(max-width:768px){.contact-grid{grid-template-columns:1fr;gap:48px}.form-row-2{grid-template-columns:1fr}.form-card{padding:28px 24px}}
 
 /* ── FOOTER ── */
-#footer{background:#080F18;padding:60px 24px 32px}
+footer.footer{background:#080F18;padding:60px 24px 32px}
 .footer-inner{max-width:1280px;margin:0 auto}
 .footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}
 .footer-logo-name{font-family:var(--font-head);font-size:22px;font-weight:700;color:var(--white);letter-spacing:0.5px;margin-bottom:4px}
@@ -217,7 +217,7 @@ h1 span{color:var(--sky)}
 .social-links{display:flex;gap:10px;margin-top:20px}
 .social-link{width:36px;height:36px;border-radius:6px;background:rgba(255,255,255,0.06);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.5);transition:var(--transition);text-decoration:none}
 .social-link:hover{background:var(--blue);color:var(--white)}
-.footer-bottom{border-top:1px solid rgba(255,255,255,0.06);padding-top:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:gap}
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.06);padding-top:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
 .footer-copy{font-size:12px;color:rgba(255,255,255,0.25);letter-spacing:0.3px}
 .footer-emergency{display:flex;align-items:center;gap:8px;font-family:var(--font-head);font-size:14px;font-weight:700;color:var(--orange);letter-spacing:1px}
 .footer-emergency::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--orange);animation:pulse 2s infinite}
@@ -629,24 +629,24 @@ h1 span{color:var(--sky)}
 </section>
 
 <footer class="footer"><div class="footer-inner">
-  <div class="ftop">
+  <div class="footer-top">
     <div>
-      <div class="fn">Mitcham Plumbing &amp; Heating</div>
-      <div class="fs">Mitcham · London</div>
-      <p class="fd">Your trusted independent plumbing and heating experts in Mitcham and throughout the London Borough of Merton. Available 24/7 for emergencies.</p>
-      <a href="tel:07462385110" class="fp">07462 385110</a>
-      <a href="mailto:info@plumbermitcham.co.uk" class="fe">info@plumbermitcham.co.uk</a>
-      <div class="slinks">
-        <a href="https://www.facebook.com/people/Mitcham-Plumbing-Heating/61565142216756/" class="sl" target="_blank" rel="noopener" aria-label="Facebook"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+      <div class="footer-logo-name">Mitcham Plumbing &amp; Heating</div>
+      <div class="footer-logo-sub">Mitcham · London</div>
+      <p class="footer-desc">Your trusted independent plumbing and heating experts in Mitcham and throughout the London Borough of Merton. Available 24/7 for emergencies.</p>
+      <a href="tel:07462385110" class="footer-phone">07462 385110</a>
+      <a href="mailto:info@plumbermitcham.co.uk" class="footer-email">info@plumbermitcham.co.uk</a>
+      <div class="social-links">
+        <a href="https://www.facebook.com/people/Mitcham-Plumbing-Heating/61565142216756/" class="social-link" target="_blank" rel="noopener" aria-label="Facebook"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
       </div>
     </div>
-    <div class="fcol"><h5>Services</h5><a href="emergency-plumber.html">Emergency Plumber</a><a href="drainage-service.html">Drainage Service</a><a href="blocked-drains.html">Blocked Drains</a><a href="shower-installation.html">Shower Installation</a><a href="washing-machine-installation.html">Washing Machine Installation</a><a href="central-heating-installation.html">Central Heating Installation</a><a href="dishwasher-installation.html">Dishwasher Installation</a><a href="boiler-repair.html">Boiler Installation and Repair</a><a href="bathroom-plumbing.html">Bathroom Plumbing</a><a href="kitchen-plumbing.html">Kitchen Plumbing</a><a href="tap-repair.html">Tap Repair and Replacement</a><a href="pipe-leak-repair.html">Pipe Leak Repair</a><a href="toilet-repair.html">Toilet Repair and Replacement</a></div>
-    <div class="fcol"><h5>Company</h5><a href="index.html">Home</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
-    <div class="fcol"><h5>Contact</h5><address>24 Chatsworth Pl<br>Mitcham CR4 4NN<br><br>Mon – Sun<br>8am – 10pm</address></div>
+    <div class="footer-col"><h5>Services</h5><a href="emergency-plumber.html">Emergency Plumber</a><a href="drainage-service.html">Drainage Service</a><a href="blocked-drains.html">Blocked Drains</a><a href="shower-installation.html">Shower Installation</a><a href="washing-machine-installation.html">Washing Machine Installation</a><a href="central-heating-installation.html">Central Heating Installation</a><a href="dishwasher-installation.html">Dishwasher Installation</a><a href="boiler-repair.html">Boiler Installation and Repair</a><a href="bathroom-plumbing.html">Bathroom Plumbing</a><a href="kitchen-plumbing.html">Kitchen Plumbing</a><a href="tap-repair.html">Tap Repair and Replacement</a><a href="pipe-leak-repair.html">Pipe Leak Repair</a><a href="toilet-repair.html">Toilet Repair and Replacement</a></div>
+    <div class="footer-col"><h5>Company</h5><a href="index.html">Home</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+    <div class="footer-col"><h5>Contact</h5><address>24 Chatsworth Pl<br>Mitcham CR4 4NN<br><br>Mon – Sun<br>8am – 10pm</address></div>
   </div>
-  <div class="fbot">
-    <span class="fcp">© 2024 Mitcham Plumbing &amp; Heating. All rights reserved.</span>
-    <div class="femg"><span class="pulse" style="width:7px;height:7px;border-radius:50%;background:var(--orange);display:inline-block"></span>24/7 EMERGENCY — 07462385110</div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2025 Mitcham Plumbing &amp; Heating. All rights reserved.</span>
+    <div class="footer-emergency">24/7 EMERGENCY — 07462385110</div>
   </div>
 </div></footer>
 
